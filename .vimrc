@@ -70,10 +70,12 @@ Plugin 'prettier/vim-prettier'
 Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
 
+" bracket auto-complete
+Plugin 'jiangmiao/auto-pairs'
+
 " required for vundle
 call vundle#end()
-colorscheme space-vim-dark
-
+colorscheme one
 syntax on
 filetype plugin indent on   " enable detection, plugins and indent
 
